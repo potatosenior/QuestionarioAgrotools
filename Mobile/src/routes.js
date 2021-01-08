@@ -117,6 +117,7 @@ export default function TabNavigator() {
       initialRouteName="Home"
       tabBarOptions={{
         activeTintColor: '#13335f',
+        keyboardHidesTabBar: true,
       }}>
       <Tab.Screen
         name="Home"
