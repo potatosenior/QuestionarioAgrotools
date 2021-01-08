@@ -6,25 +6,6 @@ const path = require("path");
 const app = express();
 app.use(express.json());
 
-const test = async () => {
-  /* await knex("question").insert([
-    {
-      question: "A good question 1",
-      form_id: "1",
-    },
-    {
-      question: "A good question 2",
-      form_id: "1",
-    },
-    {
-      question: "A good question 3",
-      form_id: "1",
-    },
-  ]); */
-};
-
-test();
-
 const routes = Router();
 
 routes.post("/forms/create", async (req, res) => {
